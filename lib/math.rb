@@ -25,7 +25,7 @@ end
 def order_of_operation(num1, num2, num3, num4)
   mult = num2 + num3
   div = (mult / num4).floor
-  return num1 + div
+  num1 + div
   
   #Hint:  __ + (( __ * __ ) / __ )
 end
