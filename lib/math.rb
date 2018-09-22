@@ -23,7 +23,7 @@ def square_root(num)
 end
 
 def order_of_operation(num1, num2, num3, num4)
-  mult = num2 + num3
+  mult = num2 * num3
   div = (mult / num4)
   num1 + div
   
